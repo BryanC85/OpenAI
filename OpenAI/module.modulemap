@@ -1,0 +1,37 @@
+framework module OpenAI {
+  umbrella header "OpenAI.h"
+  export *
+
+  module * { export * }
+  
+  explicit module OpenAIConfig {
+    header "OpenAIConfig.h"
+    export *
+  }
+  
+  explicit module OpenAICompletion {
+    header "OpenAICompletion.h"
+    export *
+  }
+  
+  explicit module OpenAIAnswer {
+    header "OpenAIAnswer.h"
+    export *
+  }
+  
+  explicit module OpenAISearch {
+    header "OpenAISearch.h"
+    export *
+  }
+  
+  explicit module OpenAICodex {
+    header "OpenAICodex.h"
+    export *
+  }
+  
+  explicit module OpenAIDavinci {
+    header "OpenAIDavinci.h"
+    export *
+  }
+}
+
